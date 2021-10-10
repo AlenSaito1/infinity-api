@@ -1,11 +1,5 @@
 {
     "name": "infinity-api",
-    "builds": [
-        {
-            "src": "dist/main.js",
-            "use": "@vercel/node"
-        }
-    ],
     "routes": [
         {
             "src": "/(.*)",
