@@ -1,9 +1,0 @@
-{
-    "name": "infinity-api",
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "dist/main.js"
-        }
-    ]
-}
