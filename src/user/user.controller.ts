@@ -7,6 +7,6 @@ export class UserController {
 
     @Get('/:jid')
     async getUser(@Param('jid') jid: string) {
-        return await this.userService.getUser(jid)
+        return (await this.userService.getUser(jid)) || { message: 'User not found' }
     }
 }
